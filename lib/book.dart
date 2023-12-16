@@ -1,0 +1,29 @@
+import 'package:flutter/material.dart';
+
+class Book{
+  String image,description,title;
+  double price;
+
+  Book(this.image, this.description, this.title, this.price);
+
+  @override
+  String toString() {
+    return 'TITLE: $title,\n\nDETAILS: $description,\n\nPRICE: $price';
+  }
+}
+List<Book> cbooks=[
+  Book('images/c1.jpg', 'Culture is the operating system of a company. It is the way people behave with each other when you aren’t looking, and it can be the difference between a company that grows and thrives, and one that sputters to a halt. Book co-Author Culturati has been hosting annual conferences on culture-building for five years, curating the very best thinking on how to build strong, resilient and vibrant workplaces. Co-Author Weeva helps companies like LendingTree and Zappos create gorgeous company culture books.', ' When Culture Clicks ', 2.5),
+  Book('images/c2.jpg', '"Exploring Cultural Perspectives" is a captivating book that takes readers on a thought-provoking journey across continents, unraveling the rich tapestry of human cultures. Authored by Maria Rodriguez, a seasoned anthropologist and world traveler, the book provides a unique lens through which readers can delve into the diverse traditions, customs, and belief systems that shape societies around the globe.', 'Exploring Cultural Perspectives: A Journey Across Continents', 3),
+  Book('images/c3.jpg', 'Harmony in Diversity" penned by Jamal Patel is a compelling exploration of the interconnectedness and interdependence of cultures around the world. With a keen eye for detail and a passion for fostering unity, Patel takes readers on an enriching expedition through the varied landscapes of global heritage', 'Harmony in Diversity: Navigating the Cultural Kaleidoscope', 2),
+  Book("images/c4.jpg", 'Aisha Nguyens Cultural Threads: Weaving Stories of Identity is a tapestry of narratives that beautifully intertwines the personal and collective stories of individuals from diverse cultural backgrounds. Through meticulous research and heartfelt storytelling, Nguyen brings to life the shared experiences that connect humanity across continents.', "Cultural Threads: Weaving Stories of Identity", 6),
+  Book("images/c5.jpg", "Javier Morales invites readers on a visually captivating journey with Sculpting Cultures: An Artistic Exploration This unique book transcends traditional narrative structures, using the lens of art to explore the intricate nuances that define diverse cultures around the world.", "Sculpting Cultures: An Artistic Exploration", 9),
+  Book("images/c6.jpg", "Each chapter of the book is a lyrical narrative, exploring the distinctive melodies, instruments, and rhythms that define cultures. From the soulful tunes of jazz in New Orleans to the hypnotic beats of traditional drums in West Africa, Ramirez delves into the cultural contexts that shape musical traditions, revealing the stories woven into the very fabric of societies.", "Echoes of Tradition: A Musical Odyssey through Cultures", 2),
+  Book("images/c7.jpg", "The book unfolds like a well-seasoned recipe, with each chapter highlighting a different culinary tradition. Santos shares personal anecdotes, interviews with chefs, and explores the historical roots of various dishes, uncovering the unique ingredients, flavors, and techniques that define each culture's gastronomic tapestry.", "Flavors of Heritage: Culinary Chronicles from Around the Globe", 5)
+];
+List<Book> sbooks=[
+  Book("images/s1.jpg", "Each chapter of the book is a thrilling match, showcasing different sports and their significance within diverse cultures. From the passion of soccer in South America to the precision of archery in East Asia, Fernandez examines the historical roots, rituals, and rivalries that make each sport a cultural phenomenon.", "Global Rivalries: Sporting Tapestry Unveiled", 2),
+  Book("images/s2.jpg", "Structured like a series of gripping matches, each chapter focuses on a different sport, unraveling its cultural significance and impact on communities. From the thunderous roars of soccer stadiums in Europe to the rhythmic cadence of basketball courts in the Americas, Turner captures the essence of how sports serve as a powerful expression of cultural identity.", "Game Changers: Sporting Legacies Across Continents", 1),
+  Book("images/s3.jpg", "Each chapter of the book unfolds as a strategic match, examining various sports that have played pivotal roles in breaking down barriers and building bridges between nations. From the historic ping pong diplomacy between the United States and China to the shared passion for cricket that unites South Asian countries, Navarro paints a vivid picture of how sports serve as a common language", "Bridging Borders: Sporting Unity in a Global Arena", 3.5),
+  Book("images/s4.jpg", "Structured like a series of gripping matches, each chapter of the book immerses readers in the unique sporting traditions of different cultures. From the endurance tests of ultramarathons in the Himalayas to the strategic brilliance of indigenous games in Australia, Khan provides a global tour of sports that goes beyond the mainstream.", "Rhythms of Victory: Sporting Traditions Unveiled", 2.2),
+  Book("images/s5.jpg", "Isabella Chen's Epic Courts: Sporting Tales Across Continents embarks on an exhilarating journey, treating readers to a collection of stories that transcend the boundaries of geography and culture. As a sports storyteller and enthusiast, Chen weaves together narratives that showcase the universal appeal of sports, turning athletic endeavors into epic tales.", "Epic Courts: Sporting Tales Across Continents", 7.7)
+];
